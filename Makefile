@@ -7,5 +7,8 @@ makemigrations:
 migrate:
 	python manage.py migrate
 
-make fill_db:
+fill_db:
 	python manage.py fill_db
+
+run_bot:
+	python manage.py run_bot
