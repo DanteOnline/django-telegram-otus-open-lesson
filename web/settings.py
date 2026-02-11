@@ -23,7 +23,7 @@ SECRET_KEY = 'django-insecure-4vxd!j0hep_zihdim=ei6xh6v%7v5$@btst)&d@9ldleidz^q8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -120,3 +120,4 @@ STATIC_URL = 'static/'
 # BOT
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
+WEBHOOK_URL = os.getenv('WEBHOOK_URL')
