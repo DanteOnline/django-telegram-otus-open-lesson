@@ -1,4 +1,4 @@
-import telebot
+from telebot.async_telebot import AsyncTeleBot
 from django.conf import settings
 
-bot = telebot.TeleBot(settings.BOT_TOKEN)
+bot = AsyncTeleBot(settings.BOT_TOKEN)

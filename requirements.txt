@@ -1,3 +1,5 @@
 Django==6.0.2
 pyTelegramBotAPI==4.30.0
 python-dotenv==1.2.1
+asgiref==3.11.1
+aiohttp==3.13.3
