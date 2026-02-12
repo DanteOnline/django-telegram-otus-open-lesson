@@ -1,5 +1,24 @@
 # django-telegram-otus-open-lesson
 Code for otus open lesson "Django+Telegram bot"
 
-## Examples 
-- [Step 0. Django](https://github.com/DanteOnline/django-telegram-otus-open-lesson/tree/step0-django)
+## Step 2.1. Sync Djagno + Sync Telebot + Long Polling
+
+Бот живет в приложении вместе с django проектом и использует Django ORM напрямую
+
+## Usage
+
+```commandline
+pip install -r requirements.txt
+```
+
+```commandline
+make migrate
+```
+
+```commandline
+make server
+```
+
+```commandline
+make run_bot
+```
