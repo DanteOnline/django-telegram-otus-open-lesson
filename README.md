@@ -1,5 +1,28 @@
 # django-telegram-otus-open-lesson
 Code for otus open lesson "Django+Telegram bot"
 
-## Examples 
-- [Step 0. Django](https://github.com/DanteOnline/django-telegram-otus-open-lesson/tree/step0-django)
+## Step 0. Django web
+
+Из коробки у нас есть: 
+- ORM
+- пользователи и аутентификация
+- админка
+- многое другое
+
+## Usage
+
+```commandline
+pip install -r requirements.txt
+```
+
+```commandline
+make migrate
+```
+
+```commandline
+make fill_db
+```
+
+```commandline
+make server
+```
