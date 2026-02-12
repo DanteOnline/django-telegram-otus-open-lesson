@@ -1,5 +1,30 @@
 # django-telegram-otus-open-lesson
 Code for otus open lesson "Django+Telegram bot"
 
-## Examples 
-- [Step 0. Django](https://github.com/DanteOnline/django-telegram-otus-open-lesson/tree/step0-django)
+## Step 2.2. Sync Djagno + Sync Telebot + Webhook
+
+Для использования webhook нужен: 
+- ssl (https), используется ngrok для локального запуска
+- endpoint для получения обновлений
+
+## Usage
+
+```commandline
+pip install -r requirements.txt
+```
+
+```commandline
+make migrate
+```
+
+```commandline
+make server
+```
+
+```commandline
+make ngrok
+```
+
+```commandline
+make set_webhook
+```
